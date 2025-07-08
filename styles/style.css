@@ -129,8 +129,8 @@ ul a {
 /* background images */
 
 .html-header {
-  background-image: url(../resources/images/developer.png),
-    url(../resources/images/header_bg.png);
+  background-image: url(../portfolio-resources/images/developer.png),
+    url(../portfolio-resources/images/header_bg.png);
 
   background-repeat: no-repeat;
 
