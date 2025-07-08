@@ -172,7 +172,7 @@ ul a {
   box-shadow: 10px 10px 20px grey;
   margin: 130px auto;
   padding: 131px 156px;
- max-width: 60vw;
+ width: 60vw;
 }
 .about-description{
   text-align: center;
@@ -180,7 +180,7 @@ ul a {
 }
 .skills-intro{
   text-align: center;
-  max-width: 50vw;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -201,4 +201,45 @@ ul a {
 }
 main section{
   margin-top: 150px;
+  margin-bottom: 150px;
+}
+/* .resume{
+  max-width: 60vw;
+  margin: 0 auto;
+} */
+
+.resume-section{
+  background-color: aliceblue;
+  width: 60vw;
+  margin: 130px auto;
+  padding: 40px ;
+}
+.resume-title{
+  text-align: center;
+}
+.resume{
+  display: flex;
+  gap: 70px;
+  
+}
+.education-container{
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  
+}
+.experience-container{
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+.degree{
+  color: #474747;
+}
+.session{
+  color: #757575;
+}
+.skill-list{
+  font-size: 18px;
+  color: #757575;
 }
