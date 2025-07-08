@@ -243,3 +243,8 @@ main section{
   font-size: 18px;
   color: #757575;
 }
+.resume-section button{
+  display: block;
+  margin: 0 auto;
+  
+}
