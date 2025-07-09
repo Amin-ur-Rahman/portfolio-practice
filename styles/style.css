@@ -1,3 +1,8 @@
+
+*{
+  margin: 0;
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
 
@@ -124,12 +129,17 @@ ul a {
 
 .banner-description {
   font-size: 18px;
+  margin: 20px 0;
 
+}
+.banner-btn2{
+  margin-left: 20px;
 }
 
 /* background images */
 
 .html-header {
+  
   background-image: url(../portfolio-resources/images/developer.png),
     url(../portfolio-resources/images/header_bg.png);
 
@@ -248,3 +258,59 @@ main section{
   margin: 0 auto;
   
 }
+.edu2,.exp2{
+  border-top: 1px solid #474747;
+  border-bottom: 1px solid #474747;
+}
+
+/* footer stying */
+
+.footer-headings{
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.social-disclaimer{
+  font-size: 16px;
+  color: #474747;
+  padding-bottom: 20px;
+}
+.img-container{
+  display: flex;
+  column-gap: 20px;
+}
+.contact-info{
+  width: 461px;
+}
+
+.footer-inputs{
+  width: 100%;
+  padding: 18px;
+  margin: 24px 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+#message{
+  font-size: 18px;
+  resize: none;
+  width: 100%;
+  padding: 18px;
+  color: #757575;
+  border: none;
+  border: 10px;
+}
+#message::placeholder{
+  font-family: "Open Sans", sans-serif;
+}
+.foot-section{
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  padding: 130px 0;
+  column-gap: 117px;
+}
+.sub-btn{
+  margin-top: 24px;
+}
+
