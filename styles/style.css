@@ -1,6 +1,8 @@
 
 *{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .open-sans-normal {
@@ -166,12 +168,11 @@ ul a {
   font-size: 18px;
   
 }
-.about-details{
-  text-align: center;
-}
+
 .about-details{
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 .bold{
   font-weight: bold;
@@ -281,7 +282,15 @@ main section{
 }
 .contact-info{
   width: 461px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
 }
+.contact-info input{
+  display:block;
+}
+
 
 .footer-inputs{
   width: 100%;
@@ -298,7 +307,7 @@ main section{
   padding: 18px;
   color: #757575;
   border: none;
-  border: 10px;
+  border-radius: 10px;
 }
 #message::placeholder{
   font-family: "Open Sans", sans-serif;
