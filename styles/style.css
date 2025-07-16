@@ -112,6 +112,10 @@ ul a {
 
   justify-content: space-between;
 }
+.banner-container img {
+  display: block;
+
+}
 
 .mini-container {
   max-width: 585px;
@@ -156,10 +160,6 @@ ul a {
   background-color: #fff8f3;
 }
 
-.about-section {
-  max-width: 70vw;
-  border-radius: 10px;
-}
 .about-heading{
   font-size: 35px;
   font-weight: bold;
@@ -183,17 +183,14 @@ ul a {
   box-shadow: 10px 10px 20px grey;
   margin: 130px auto;
   padding: 131px 156px;
- width: 60vw;
+  border-radius: 10px;
+  width: 80%;
 }
 .about-description{
   text-align: center;
   
 }
-.skills-intro{
-  text-align: center;
-  width: 60vw;
-  margin: 0 auto;
-}
+
 
 /* cards styling */
 
@@ -215,13 +212,13 @@ main section{
   margin-bottom: 150px;
 }
 /* .resume{
-  max-width: 60vw;
+  max-width: 80%;
   margin: 0 auto;
 } */
 
 .resume-section{
   background-color: aliceblue;
-  width: 60vw;
+  width: 80%;
   margin: 130px auto;
   padding: 40px ;
 }
@@ -249,6 +246,16 @@ main section{
 }
 .session{
   color: #757575;
+}
+
+.skills {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 0 25%;
+}
+.skills-heading {
+  margin-bottom: 20px;
 }
 .skill-list{
   font-size: 18px;
@@ -314,7 +321,7 @@ main section{
 }
 .foot-section{
   display: flex;
-  max-width: 60vw;
+  width: 80%;
   margin: auto;
   padding: 130px 0;
   column-gap: 117px;
@@ -323,3 +330,75 @@ main section{
   margin-top: 24px;
 }
 
+@media screen and (max-width: 576px) {
+
+  .banner-container {
+    flex-direction: column;
+    width: calc( 100% - 20px );
+    margin: 50px auto;
+    padding: 10px;
+  }
+  nav {
+    margin: 0 auto;
+  }
+  .banner-container img{
+    width: 100%;
+  }
+
+  .about-section {
+    width: calc( 100% - 20px );
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 10px;
+  }
+  .about-details {
+    flex-direction: column;
+    align-self: center;
+  }
+  .about-details, .about-paragraph {
+    padding: 0;
+
+  }
+  .skills {
+    width: calc( 100% - 20px );
+    padding: 10px;
+    margin: 50px auto;
+  }
+
+  .card-container {
+    flex-direction: column;
+    padding: 10px;
+    width: calc( 100% - 20px );
+    margin: 50px auto;
+  }
+  .card {
+    padding: 10px;
+
+  }
+
+  .foot-section {
+    flex-direction: column;
+    width: calc( 100% - 20px );
+    padding: 10px;
+    
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .resume {
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 10px;
+  }
+  .resume-section {
+    padding: 0;
+    margin: 50px auto;
+  }
+  .education-container, .experience-container {
+    padding: 0;
+  }
+}
