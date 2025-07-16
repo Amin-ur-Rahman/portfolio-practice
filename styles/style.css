@@ -339,7 +339,10 @@ main section{
     padding: 10px;
   }
   nav {
+    width:  calc( 100% - 20px );
+    flex-wrap: wrap;
     margin: 0 auto;
+    
   }
   .banner-container img{
     width: 100%;
@@ -381,13 +384,16 @@ main section{
     flex-direction: column;
     width: calc( 100% - 20px );
     padding: 10px;
-    
+  }
+  .contact-info {
+    width: calc( 100% - 20px );
   }
 
   body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    
+    overflow-y: auto;
   }
   .resume {
     flex-direction: column;
